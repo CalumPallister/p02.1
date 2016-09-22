@@ -16,7 +16,7 @@ Tests:
     >>> roll_double(4, 5)
     9
     >>> roll_double(2, 2)
-    8 
+    8
     >>> roll_double(5, 5)
     20
 
@@ -29,3 +29,11 @@ def run_tests():
 
 
 def roll_double(dice1, dice2):
+
+    if dice1 == dice2:
+        print((dice1 + dice2) * 2)
+
+    else:
+        print(dice1 + dice2)
+
+    

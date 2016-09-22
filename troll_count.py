@@ -38,3 +38,15 @@ def run_tests():
 # Edit this function:
 def troll_count(n):
 
+    if 2 < n < 9:
+        print("many")
+
+    elif n > 8:
+        print("lots")
+
+    elif n == 1:
+        print("one")
+
+    else:
+        print("two")
+        

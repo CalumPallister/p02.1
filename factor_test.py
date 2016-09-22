@@ -28,3 +28,14 @@ def run_tests():
 
 # Edit this function
 def factor_test(a, b):
+
+    if a == b:
+        print("a = b")
+
+    elif a % b == 0:
+        print("b is a factor of a")
+
+    elif b % a == 0:
+        print("a is a factor of b")
+
+    else: print("No factors here")
