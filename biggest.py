@@ -26,11 +26,11 @@ def run_tests():
 # Edit this code
 def biggest(a, b, c):
 
-    if a => b and a => c:
+    if a >= b and a >= c:
         print(a)
 
-    elif b > c and b > a and not b == c or b == a:
+    elif b >= c and b >= a:
         print(b)
 
-    elif c > a and c > b and not c == a or c == b:
+    elif c >= a and c >= b:
         print(c)
